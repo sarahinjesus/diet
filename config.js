@@ -1,12 +1,9 @@
-// ── 파이어베이스 설정 ─────────────────────────────────────────────
-// 아래 값들을 파이어베이스 콘솔의 "웹 앱" 설정에서 복사해 붙여넣으세요.
-// (프로젝트 설정 → 내 앱 → SDK 설정 및 구성 → firebaseConfig)
-// 이 값들은 공개돼도 안전합니다. 실제 보안은 Firestore 규칙과 로그인이 담당합니다.
+// 파이어베이스 설정 (Let's go diet)
 window.FIREBASE_CONFIG = {
-  apiKey: "여기에_붙여넣기",
-  authDomain: "여기에_붙여넣기",
-  projectId: "여기에_붙여넣기",
-  storageBucket: "여기에_붙여넣기",
-  messagingSenderId: "여기에_붙여넣기",
-  appId: "여기에_붙여넣기"
+  apiKey: "AIzaSyDd3xaCKwwZqw4IGLmyeFQDkRHYXVyXwoI",
+  authDomain: "let-s-go-diet.firebaseapp.com",
+  projectId: "let-s-go-diet",
+  storageBucket: "let-s-go-diet.firebasestorage.app",
+  messagingSenderId: "508612489785",
+  appId: "1:508612489785:web:d88cf2ff92a3ceeae353e8"
 };
