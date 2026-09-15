@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>오늘의 도장</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +29,9 @@
     --shadow-c:rgba(0,0,0,.4);
   }
   *{box-sizing:border-box}
+  html,body{margin:0}
+  [hidden]{display:none!important}
+  img{max-width:100%}
   body{background:var(--bg); color:var(--ink);
     font-family:"IBM Plex Sans KR",system-ui,-apple-system,sans-serif; line-height:1.55; -webkit-font-smoothing:antialiased}
   .wrap{max-width:480px; margin:0 auto; min-height:100vh; padding:0 0 96px; position:relative}
@@ -159,6 +167,8 @@
   .autherr[hidden]{display:none}
   .authnote{color:var(--muted); font-size:12px; text-align:center; margin:8px 0 0}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header class="top">
@@ -600,3 +610,5 @@
   loadLocal(); renderAll(); setSyncUI(); initFirebase();
 })();
 </script>
+</body>
+</html>
